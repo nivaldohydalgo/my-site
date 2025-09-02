@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --o",
+    "build": "ng build --output-path=dist --base-href='/'",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "push": "git push -u origin main",
+    "deploy": "ngh --dir=/dist/browser"
   },
   "prettier": {
     "printWidth": 100,
