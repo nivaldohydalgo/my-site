@@ -1,11 +1,12 @@
 
 .container {
-    background-color: #1b263b;
+    background-color: #8ecae6;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80vw;
     margin-top: 20px;
+    margin-bottom: 40px;
     border-radius: 30px;
 }
 

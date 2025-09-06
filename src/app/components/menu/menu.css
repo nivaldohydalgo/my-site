@@ -2,9 +2,12 @@
 .container {
     display: flex;
     flex-direction: row;
+    margin: 12px;
+    margin-top: 30px;
 }
 
 .button-box {
+    background-color: #219ebc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +22,7 @@
     border-radius: 10px;
     border-style: solid;
     border-width: 3px;
-    border-color: antiquewhite;
+    border-color: #023047;
 }
 
 .button-style {
@@ -28,5 +31,12 @@
     font-weight: 400;
     font-style: normal;
     font-size: 28px;
-    color: #ff9f1c;
+    color: #ffffff;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
 }
