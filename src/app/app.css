@@ -1,0 +1,18 @@
+
+.container {
+    background-color: #1b263b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        margin-top: 10px;
+        width: 96vw;
+    }
+
+}

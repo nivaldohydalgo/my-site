@@ -1,0 +1,27 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+.divider {
+    background-color: #007ea7;
+    height: 1px;
+    width: 98%;
+}
+
+.content {
+}
+
+.url-box {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.url-style {
+    color: #fdfefd;
+
+}

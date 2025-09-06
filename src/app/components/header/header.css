@@ -1,42 +1,114 @@
 
 .container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-.container-heigth {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
-.photo-container {
-    margin: 10px;
+.container-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 79vw;
 }
 
-.name-container {
-    margin: 10px;
+.container-bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.name-text {
-    font-size: 36px;
-    font-style: italic;
-}
-
-.my-photo {
-    width: 100px;
-    height: 100px;
+.icon-box {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     border-style: solid;
-    border-width: 4px;
-    border-color: #bbbbbb;
+    border-width: 3px;
+    border-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nh-icon {
+    width: 100px;
+    height: 100px;
 }    
 
-.divider {
-    width: 40px;
-    height: 30px;
+.order-nivaldo {
+    order: 1;
+}
+
+.order-hydalgo {
+    order: 3;
+}
+
+.order-icon {
+    order: 2;
+}
+
+.name-style {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    color: #00a6fb;
+}
+
+.job-box {
+    margin-bottom: 20px;
+}
+
+.job-style {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;  
+    font-size: 32px;  
+    color: #ffffff;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.skill-style {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: burlywood;
+}
+
+@media screen and (max-width: 800px) {
+
+    .container-top {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 94vw;
+    }
+
+    .order-icon {
+        order: 0;
+    }
+
+    .icon-box {
+        margin-bottom: 20px;
+}
+
 }
