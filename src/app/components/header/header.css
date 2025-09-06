@@ -1,0 +1,42 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container-heigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-container {
+    margin: 10px;
+}
+
+.name-container {
+    margin: 10px;
+}
+
+.name-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.my-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #bbbbbb;
+}    
+
+.divider {
+    width: 40px;
+    height: 30px;
+}
