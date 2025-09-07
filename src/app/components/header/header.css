@@ -1,11 +1,16 @@
 
 .container {
+    background-color: #ffbe00;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 6px;
     padding-right: 6px;
+    border-radius: 20px;
+    box-shadow: 1px 18px 32px 7px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 1px 18px 32px 7px rgba(0,0,0,0.44);
+    -moz-box-shadow: 1px 18px 32px 7px rgba(0,0,0,0.44);
 }
 
 .container-top {
@@ -61,7 +66,7 @@
     font-weight: 400;
     font-style: italic;
     font-size: 60px;
-    color: #023047;
+    color: #666666;
 }
 
 .job-box {
@@ -72,8 +77,8 @@
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: italic;  
-    font-size: 32px;  
-    color: #219ebc;
+    font-size: 42px;  
+    color: #db3a34;
 }
 
 .skill-box {
@@ -86,7 +91,7 @@
 
 .skill-style {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
     font-size: 28px;
     margin-left: 16px;
@@ -100,7 +105,7 @@
         flex-direction: column;
         margin-top: 40px;
         margin-bottom: 40px;
-        width: 94vw;
+        width: 90vw;
     }
 
     .order-icon {
