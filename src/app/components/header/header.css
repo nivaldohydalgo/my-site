@@ -1,125 +1,85 @@
 
 .container {
     display: flex;
+    flex-direction: row;
     width: 80vw;
+}
+
+.box-left {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box-right {
+    display: flex;
     flex-direction: column;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
 
-.container-top {
+.box-name {
+    margin-right: 16px;
+}
+
+.text-name {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #669bbc;
+}
+
+.box-job {
+    padding: 15px;
+}
+
+.text-job {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 30px;
+    font-style: normal;  
+    color: #780000;  
+}
+
+.box-skills {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 34px;
-    margin-bottom: 14px;
+    padding: 15px;
 }
 
-.container-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.icon-box {
-    /*
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 6px;
-    border-color: #dba8ac;
-    margin-left: 14px;
-    margin-right: 14px;
-*/
-}
-
-.nh-icon {
-    width: 80px;
-    height: 80px;
-}    
-
-.order-nivaldo {
-    order: 1;
-}
-
-.order-hydalgo {
-    order: 3;
-}
-
-.order-icon {
-    order: 2;
-}
-
-.name-style {
-    font-family: "Handlee", cursive;
+.text-skills {
+    font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 400;
-    font-style: normal;    
-    font-size: 100px;
-    margin: 16px;
-    color: #AA7BC3;
-}
-
-.job-box {
-    margin: 6px;
-}
-
-.job-style {
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    font-style: italic;  
-    font-size: 34px;  
-    color: #531cb3;
-}
-
-.skill-box {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 12px;
-    margin-bottom: 24px;
-}
-
-.skill-style {
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
     font-style: normal;
-    font-size: 28px;
-    margin-left: 9px;
-    margin-right: 9px;
-    color: #666666;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-left: 10px;
+    color: #c1121f;
 }
 
 @media screen and (max-width: 800px) {
 
     .container {
-        width: 94vw;
-    }
-
-
-
-    .container-top {
         flex-direction: column;
-        /*
-        margin-top: 40px;
-        margin-bottom: 40px;
-        width: 90vw;
-        */
+        width: 96vw;
     }
 
-    .order-icon {
-        order: 0;
+    .box-left {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;        
     }
 
-    .icon-box {
-        /*
-        margin-bottom: 20px;
-        */
+    .box-name {
+        margin-right: 0px;
     }
+
 
 }

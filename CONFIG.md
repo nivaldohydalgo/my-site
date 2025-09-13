@@ -1,106 +1,52 @@
 
-#EDFAFD
-#DBF5FA
-#CAF0F8 ---
-#B7EBF6
-#A5E6F3
 
 
+## Font: Playfair Display
 
-## ----------------------
-## Font LIBRE BASKERVILLE
-## ----------------------
+// <weight>: Use a value from 400 to 900
+// <uniquifier>: Use a unique and descriptive class name
 
-.libre-baskerville-regular {
-  font-family: "Libre Baskerville", serif;
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+## Font: M PLUS Rounded 1c
+
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.libre-baskerville-bold {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700;
+
+## Font: Roboto
+
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
-.libre-baskerville-regular-italic {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
-## ---------
-## Font LATO
-## ---------
+## Font: Quintessential 
 
-.lato-thin {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.lato-regular {
-  font-family: "Lato", sans-serif;
+.quintessential-regular {
+  font-family: "Quintessential", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.lato-bold {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 
-.lato-black {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
 
-.lato-thin-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.lato-light-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.lato-regular-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.lato-bold-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.lato-black-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-## ------------
-## Font HANDLEE
-## ------------
-
-.handlee-regular {
-  font-family: "Handlee", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 
 

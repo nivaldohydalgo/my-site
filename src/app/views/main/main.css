@@ -1,29 +1,12 @@
 
 .container {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    border-radius: 18px;
+
 }
 
 .content {
-    /*
-    background-color: #caf0f8;
-    width: 99%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 16px;
     margin-top: 30px;
-    margin-bottom: 40px;
-*/
-}
-
-@media screen and (max-width: 800px) {
-    .content {
- /* 
-        width: 96%;
-*/
-    }
-
+    margin-bottom: 30px;
 }
