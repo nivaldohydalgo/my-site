@@ -1,6 +1,14 @@
 
 .container {
-
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    border-radius: 12px;
+    margin-top: 14px;
+    margin-bottom: 60px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .content {
@@ -9,4 +17,16 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 96vw;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 60vw;
+    }
 }

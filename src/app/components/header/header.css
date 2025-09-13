@@ -2,14 +2,13 @@
 .container {
     display: flex;
     flex-direction: row;
-    width: 80vw;
 }
 
 .box-left {
     display: flex;
     flex: 1;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -17,8 +16,8 @@
 
 .box-right {
     display: flex;
-    flex-direction: column;
     flex: 1;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -31,7 +30,7 @@
     font-family: "Quintessential", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 50px;
     color: #669bbc;
 }
 
@@ -68,7 +67,6 @@
 
     .container {
         flex-direction: column;
-        width: 96vw;
     }
 
     .box-left {
@@ -83,3 +81,4 @@
 
 
 }
+

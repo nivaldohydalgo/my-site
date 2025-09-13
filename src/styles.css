@@ -1,5 +1,6 @@
 
 html, body {
+    background-color: #f7f6e7;
     display: flex;
     justify-content: center;
     align-items: flex-start;
