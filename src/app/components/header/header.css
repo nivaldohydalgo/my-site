@@ -1,84 +1,90 @@
 
 .container {
+    background-color: #ca1f3d;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
 }
 
 .box-left {
     display: flex;
-    flex: 1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .box-right {
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .box-name {
-    margin-right: 16px;
-}
-
-.text-name {
-    font-family: "Quintessential", serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Henny Penny", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
-    color: #669bbc;
+}
+
+.text-pri-letra {
+    font-size: 10vw;
+    color: #ffffff;
+}
+
+.text-dem-letras {
+    font-size: 3.5vw;
+    color: #f3f5f2;
+    letter-spacing: 1px;
 }
 
 .box-job {
-    padding: 15px;
+
 }
 
 .text-job {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-size: 30px;
-    font-style: normal;  
-    color: #780000;  
+    font-family: "Merriweather", serif;
+    font-size: 2.8vw;
+    letter-spacing: 0.3vw;
+    color: #ffffff;
 }
 
 .box-skills {
     display: flex;
     flex-direction: row;
-    padding: 15px;
 }
 
 .text-skills {
-    font-family: "M PLUS Rounded 1c", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-left: 10px;
-    color: #c1121f;
+    margin: 1.2vw;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.2vw;
+    color: #ffffff;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 768px) {
 
     .container {
         flex-direction: column;
     }
 
-    .box-left {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;        
+    .text-pri-letra {
+        font-size: 20vw;
     }
 
-    .box-name {
-        margin-right: 0px;
+    .text-dem-letras {
+        font-size: 7vw;
     }
 
+    .text-job {
+        font-size: 5vw;
+    }
+
+    .text-skills {
+        font-size: 4vw;
+    }
 
 }
-
