@@ -1,37 +1,35 @@
 
 .container {
+    background-color: #f3f5f2;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
-    margin: 12px;
-    margin-top: 30px;
+    margin: -2.6vw 3vw 3vw 4vw;
+    padding: 0.7vw 0.7vw 0.7vw 0.7vw;
+    border-radius: 2vw;
+    border-style: solid;
+    border-color: #ca1f3d;
+    border-width: 0.3vw;
 }
 
 .button-box {
+    background-color: #FFBE00;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #023047;
+    margin: 0.6vw 0.3vw 0.6vw 0.3vw;
+    padding: 0.6vw 2vw 0.6vw 2vw;
+    border-radius: 1vw;
 }
 
 .button-style {
-    color: #023047;
+    color: #333333;
 
 
 
-    font-size: 28px;
+    font-size: 2vw;
 }
 
 a:link,
@@ -39,4 +37,25 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: -5vw 3vw 3vw 3vw;
+        border-radius: 3vw;
+        border-width: 0.8vw;
+    }
+
+    .button-box {
+        margin: 2vw 0.6vw 2vw 0.6vw;
+        padding: 1.3vw 2vw 1.3vw 2vw;
+    }
+
+
+    .button-style {
+        font-size: 4vw;
+    }
+
+
 }
