@@ -1,10 +1,13 @@
 
 .container {
-    background-color: #ca1f3d;
+    background: linear-gradient(to top, #ca1f3d, #f15f79);
+    width: 100vw;
+}
+
+.content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100vw;
 }
 
 .box-left {
@@ -43,31 +46,36 @@
 }
 
 .box-job {
-
+    background-color: #8cb369;
+    padding: 8px 26px 8px 26px;
+    border-radius: 16px;
 }
 
 .text-job {
     font-family: "Merriweather", serif;
     font-size: 2.8vw;
+    font-weight: bold;
     letter-spacing: 0.3vw;
-    color: #ffffff;
+    color: #354f52;
 }
 
 .box-skills {
     display: flex;
     flex-direction: row;
+    margin: 0px 0px 0px 0px;
 }
 
 .text-skills {
     margin: 1.2vw;
     font-family: "Oswald", sans-serif;
     font-size: 2.2vw;
-    color: #ffffff;
+    font-weight: 400;
+    color: #cbeef3;
 }
 
 @media (max-width: 768px) {
 
-    .container {
+    .content {
         flex-direction: column;
     }
 
@@ -81,6 +89,10 @@
 
     .text-job {
         font-size: 5vw;
+    }
+
+    .box-skills {
+        margin: 10px 0px 25px 0px;
     }
 
     .text-skills {
