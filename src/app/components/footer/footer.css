@@ -1,16 +1,42 @@
 
 .container {
+    width: 100vw;
+}
+
+.content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 10vw;
 }
 
 .url-box {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    background-color: #ffbe00;
+    display: flex;
+    justify-content: center;
+    padding: 0.6vw;
+    margin-top: 2vw;
+    border-style: solid;
+    border-color: #ca1f3d;
+    border-width: 0.3vw 0 0 0;
 }
 
 .url-style {
-    color: #666666;
+    color: #6a040f;
+    font-size: 2vw;
+}
+
+.box-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    margin-bottom: 160px;
+}
+
+@media (max-width: 768px) {
+
+    .url-style {
+        font-size: 3vw;
+    }
+
 }
