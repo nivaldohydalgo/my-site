@@ -8,18 +8,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 800px) {
-    .container {
-
+@media screen and (max-width: 768px) {
+    .content {
+        margin-top: 4px;
     }
 }
 
-@media screen and (min-width: 1400px) {
-    .container {
-
-    }
-}

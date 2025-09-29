@@ -1,0 +1,118 @@
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-left {
+    display: flex;
+    flex: 1;
+    margin-top: 6px;
+}
+
+.box-right {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-left: 8px;
+}
+
+.image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.box-right-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box-right-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title {
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color:crimson;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.button {
+    background-color: crimson;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-top: 12px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .box-left {
+        margin-top: 0;
+    }
+
+    .box-right {
+        margin-left: 0;
+    }
+
+    .section {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .button {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+}

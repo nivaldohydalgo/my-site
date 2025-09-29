@@ -33,9 +33,17 @@
     margin-bottom: 160px;
 }
 
+.text-copyright {
+    font-size: 1.6vw;
+}
+
 @media (max-width: 768px) {
 
     .url-style {
+        font-size: 3vw;
+    }
+
+    .text-copyright {
         font-size: 3vw;
     }
 
