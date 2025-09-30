@@ -15,7 +15,7 @@
 }
 
 .button-box {
-    background-color: #FFBE00;
+    background-color: #fca311;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,9 @@
 }
 
 .button-style {
+    font-family: "Roboto", sans-serif;
     color: #25182e;
+    color: #ffffff;
 
 
 
@@ -54,7 +56,7 @@ a:active {
 
 
     .button-style {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
 
