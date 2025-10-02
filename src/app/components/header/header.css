@@ -1,6 +1,7 @@
 
 .container {
     background-color: #ca1f3d;
+    background-color: #f44463;
     width: 100vw;
 }
 
@@ -47,6 +48,11 @@
 
 .box-job {
     background-color: #8cb369;
+    background-color: #fe9e24;
+    background-color: #704149;
+    background-color: #9dbdb8;
+    background-color: #be91ff;
+    background-color: #b53572;
     padding: 8px 26px 8px 26px;
     border-radius: 16px;
 }
@@ -57,6 +63,7 @@
     font-weight: bold;
     letter-spacing: 0.3vw;
     color: #354f52;
+    color: #ffffff;
 }
 
 .box-skills {

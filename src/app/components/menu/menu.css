@@ -10,12 +10,21 @@
     padding: 0.7vw 0.7vw 0.7vw 0.7vw;
     border-radius: 2vw;
     border-style: solid;
+    border-color: #704149;
+    border-color: #fe9e24;
     border-color: #ca1f3d;
-    border-width: 0.3vw;
+    border-color: #f44463;
+    border-width: 0.4vw;
 }
 
 .button-box {
     background-color: #fca311;
+    background-color: #fbd870;
+    background-color: #fe9e24;
+    background-color: #cfdea7;
+    background-color: #fbd271;
+    background-color: #ffb876;
+    background-color: #657a42;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,11 +36,12 @@
 .button-style {
     font-family: "Roboto", sans-serif;
     color: #25182e;
+    color: #704149;
     color: #ffffff;
 
 
 
-    font-size: 2vw;
+    font-size: 2.2vw;
 }
 
 a:link,
