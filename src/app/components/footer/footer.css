@@ -12,6 +12,7 @@
 .url-box {
     background-color: #fca311;
     background-color: #f44463;
+    background-color: #e5e593;
     display: flex;
     justify-content: center;
     padding: 1.2vw;
@@ -22,7 +23,7 @@
 }
 
 .url-style {
-    color: #ffffff;
+    color: #315a72;
     font-size: 2vw;
 }
 

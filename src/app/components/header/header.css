@@ -1,7 +1,6 @@
 
 .container {
-    background-color: #ca1f3d;
-    background-color: #f44463;
+    background-color: #e5e593;
     width: 100vw;
 }
 
@@ -36,34 +35,31 @@
 }
 
 .text-pri-letra {
-    font-size: 10vw;
-    color: #ffffff;
+    font-size: 90px;
+    color: #818251;
 }
 
 .text-dem-letras {
-    font-size: 3.5vw;
-    color: #f3f5f2;
+    font-size: 40px;
+    color: #818251;
     letter-spacing: 1px;
 }
 
 .box-job {
-    background-color: #8cb369;
-    background-color: #fe9e24;
-    background-color: #704149;
-    background-color: #9dbdb8;
-    background-color: #be91ff;
-    background-color: #b53572;
+    background-color: #f3f5f2;
     padding: 8px 26px 8px 26px;
     border-radius: 16px;
 }
 
 .text-job {
     font-family: "Merriweather", serif;
-    font-size: 2.8vw;
+    font-size: 24px;
     font-weight: bold;
-    letter-spacing: 0.3vw;
+    letter-spacing: 2px;
     color: #354f52;
     color: #ffffff;
+    color: #5b8bb8;
+    color: #87c5ea;
 }
 
 .box-skills {
@@ -73,11 +69,11 @@
 }
 
 .text-skills {
-    margin: 1.2vw;
+    margin: 10px;
     font-family: "Oswald", sans-serif;
-    font-size: 2.2vw;
+    font-size: 24px;
     font-weight: 400;
-    color: #cbeef3;
+    color: #345463;
 }
 
 @media (max-width: 768px) {
@@ -91,15 +87,15 @@
     }
 
     .text-pri-letra {
-        font-size: 20vw;
+        font-size: 72px;
     }
 
     .text-dem-letras {
-        font-size: 7vw;
+        font-size: 32px;
     }
 
     .text-job {
-        font-size: 5vw;
+        font-size: 24px;
     }
 
     .box-skills {
@@ -107,7 +103,7 @@
     }
 
     .text-skills {
-        font-size: 5vw;
+        font-size: 24px;
     }
 
 }

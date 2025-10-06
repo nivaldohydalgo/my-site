@@ -6,42 +6,29 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    margin: -2.6vw 3vw 1vw 3vw;
-    padding: 0.7vw 0.7vw 0.7vw 0.7vw;
-    border-radius: 2vw;
+    margin: -26px 28px 10px 28px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 24px;
     border-style: solid;
-    border-color: #704149;
-    border-color: #fe9e24;
-    border-color: #ca1f3d;
-    border-color: #f44463;
-    border-width: 0.4vw;
+    border-color: #e5e593;
+    border-width: 4px;
 }
 
 .button-box {
-    background-color: #fca311;
-    background-color: #fbd870;
-    background-color: #fe9e24;
-    background-color: #cfdea7;
-    background-color: #fbd271;
-    background-color: #ffb876;
-    background-color: #657a42;
+    background-color: #b7cfff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.6vw 0.3vw 0.6vw 0.3vw;
-    padding: 0.6vw 2vw 0.6vw 2vw;
-    border-radius: 1vw;
+    margin: 6px 4px 6px 4px;
+    padding: 6px 22px 6px 22px;
+    border-radius: 8px;
 }
 
 .button-style {
     font-family: "Roboto", sans-serif;
-    color: #25182e;
-    color: #704149;
-    color: #ffffff;
-
-
-
-    font-size: 2.2vw;
+    color: #315a72;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 a:link,
@@ -54,20 +41,13 @@ a:active {
 @media (max-width: 768px) {
 
     .container {
-        margin: -5vw 3vw 1vw 3vw;
-        border-radius: 3vw;
-        border-width: 0.8vw;
+        margin: -26px 8px 10px 8px;
+        border-radius: 20px;
     }
 
     .button-box {
-        margin: 2vw 0.6vw 2vw 0.6vw;
-        padding: 1.3vw 2vw 1.3vw 2vw;
+        padding: 6px 16px 6px 16px;
+        border-radius: 6px;
     }
-
-
-    .button-style {
-        font-size: 5vw;
-    }
-
 
 }
