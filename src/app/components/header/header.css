@@ -87,15 +87,15 @@
     }
 
     .text-pri-letra {
-        font-size: 72px;
+        font-size: 60px;
     }
 
     .text-dem-letras {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .text-job {
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .box-skills {
@@ -103,7 +103,7 @@
     }
 
     .text-skills {
-        font-size: 24px;
+        font-size: 16px;
     }
 
 }
