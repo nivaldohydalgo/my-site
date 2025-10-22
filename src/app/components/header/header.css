@@ -1,6 +1,5 @@
 
 .container {
-    background-color: #e5e593;
     width: 100vw;
 }
 
@@ -36,19 +35,23 @@
 
 .text-pri-letra {
     font-size: 90px;
-    color: #818251;
+    color: #f04770;
 }
 
 .text-dem-letras {
     font-size: 40px;
-    color: #818251;
+    color: #f04770;
     letter-spacing: 1px;
 }
 
 .box-job {
-    background-color: #f3f5f2;
+    background-color: #cfe1f3;
     padding: 8px 26px 8px 26px;
     border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7197d3;  
+    opacity: 0.9;
 }
 
 .text-job {
@@ -56,10 +59,7 @@
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #354f52;
-    color: #ffffff;
-    color: #5b8bb8;
-    color: #87c5ea;
+    color: #073a4b;
 }
 
 .box-skills {
@@ -73,7 +73,7 @@
     font-family: "Oswald", sans-serif;
     font-size: 24px;
     font-weight: 400;
-    color: #345463;
+    color: #073a4b;
 }
 
 @media (max-width: 768px) {

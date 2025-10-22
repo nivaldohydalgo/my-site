@@ -6,47 +6,43 @@
 .content {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10vw;
+    margin-bottom: 50px;
 }
 
 .url-box {
-    background-color: #fca311;
-    background-color: #f44463;
-    background-color: #e5e593;
+    background-color: #e9e9d3;
     display: flex;
     justify-content: center;
-    padding: 1.2vw;
-    margin-top: 2vw;
-/*    border-style: solid;
-    border-color: #ca1f3d;
-    border-width: 0.3vw 0 0 0; */
+    padding: 12px;
+    margin-top: 20px;
+    opacity: 0.7;
 }
 
 .url-style {
-    color: #315a72;
-    font-size: 2vw;
+    color: #000000;
+    font-size: 20px;
 }
 
 .box-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2vw;
+    padding: 20px;
     margin-bottom: 160px;
 }
 
 .text-copyright {
-    font-size: 1.6vw;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
 
     .url-style {
-        font-size: 4vw;
+        font-size: 20px;
     }
 
     .text-copyright {
-        font-size: 4vw;
+        font-size: 20px;
     }
 
 }

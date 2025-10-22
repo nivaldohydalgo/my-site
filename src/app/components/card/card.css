@@ -59,17 +59,17 @@
 }
 
 .button {
-    background-color: #fca311;
-    background-color: #657a42;
-    background-color: #b7cfff;
+    background-color: #d7dbf2;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     margin-top: 12px;
     padding: 8px 30px 8px 30px;
-    border-radius: 8px;
-    color: #ffffff;
     color: #315a72;
     font-size: 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b7cfff;
 }
 
 a:link,
