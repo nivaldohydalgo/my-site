@@ -1,5 +1,6 @@
 
 .container {
+    background-color: #e9e9d3;
     width: 100vw;
 }
 
@@ -36,16 +37,25 @@
 .text-pri-letra {
     font-size: 90px;
     color: #f04770;
+    color: #3e5c76;
+    color: #748cab;
+    color: #809bce;
+    color: #84a98c;
 }
 
 .text-dem-letras {
     font-size: 40px;
     color: #f04770;
+    color: #84a98c;
     letter-spacing: 1px;
 }
 
 .box-job {
     background-color: #cfe1f3;
+    background-color: #e9e9d3;
+    background-color: #C8C892;
+    background-color: #F8F8F1;
+    background-color: #D6D6AE;
     padding: 8px 26px 8px 26px;
     border-radius: 16px;
     border-style: solid;
@@ -74,6 +84,8 @@
     font-size: 24px;
     font-weight: 400;
     color: #073a4b;
+    color: #52796f;
+    color: #086375;
 }
 
 @media (max-width: 768px) {
