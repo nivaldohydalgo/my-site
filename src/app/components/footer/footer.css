@@ -10,12 +10,13 @@
 }
 
 .url-box {
-    background-color: #e9e9d3;
+    background-color: #77ddfa;
     display: flex;
     justify-content: center;
-    padding: 12px;
-    margin-top: 20px;
-    opacity: 0.7;
+    margin: 16px 16px 6px 16px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .url-style {
@@ -27,7 +28,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     margin-bottom: 160px;
 }
 
@@ -37,6 +37,9 @@
 
 @media (max-width: 768px) {
 
+    .url-box {
+        margin: 16px 10px 6px 10px;
+    }
     .url-style {
         font-size: 20px;
     }

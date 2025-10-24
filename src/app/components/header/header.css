@@ -1,15 +1,102 @@
 
 .container {
-    background-color: #e9e9d3;
     width: 100vw;
 }
 
 .content {
+    background-color: #77ddfa;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 16px 16px 6px 16px;
+    padding: 24px 16px 16px 16px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.box-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #0f4e77;
+}
+
+.box-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome-pri {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome-ult {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome-letra-gr {
+    font-size: 80px;
+}
+
+.nome-letra-pq {
+    font-size: 40px;
+}
+
+.box-my-job {
+    background-color: #89a377;
+    background-color: #fbd271;
+    background-color: #007aff;
+    background-color: #34aadc;
+    padding: 10px 30px 10px 30px;
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.box-my-skills {
+    display: flex;
+    flex-direction: row;
+    margin: 12px 6px 12px 6px;
+    color: #073a4b;
+}
+
+.box-skill {
+    margin: 6px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .content {
+        margin: 10px 10px 0px 10px;
+        flex-direction: column;
+        border-radius: 12px;
+    }
+
+    .nome-letra-gr {
+        font-size: 64px;
+    }
+
+    .nome-letra-pq {
+        font-size: 33px;
+    }
+
+}
+
+/*
 .box-left {
     display: flex;
     flex-direction: row;
@@ -91,11 +178,11 @@
 @media (max-width: 768px) {
 
     .container {
-        padding-bottom: 20px;
+
     }
 
     .content {
-        flex-direction: column;
+        margin: 8px;
     }
 
     .text-pri-letra {
@@ -119,3 +206,4 @@
     }
 
 }
+*/
