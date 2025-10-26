@@ -57,6 +57,7 @@
     background-color: #fbd271;
     background-color: #007aff;
     background-color: #34aadc;
+    background-color: #7fc8f8;
     padding: 10px 30px 10px 30px;
     font-family: "Merriweather", serif;
     font-size: 24px;
@@ -87,11 +88,29 @@
     }
 
     .nome-letra-gr {
-        font-size: 64px;
+        font-size: 56px;
     }
 
     .nome-letra-pq {
-        font-size: 33px;
+        font-size: 28px;
+    }
+
+    .box-my-job {
+        padding: 10px 24px 10px 24px;
+        font-size: 17px;
+        font-weight: bold;
+        color: #ffffff;
+        letter-spacing: 1.4px;
+        border-radius: 8px;
+    }
+
+    .box-my-skills {
+        margin: 9px 6px 9px 6px;
+    }
+
+    .box-skill {
+        margin: 6px;
+        font-size: 16px;
     }
 
 }

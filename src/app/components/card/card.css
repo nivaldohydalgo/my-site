@@ -77,6 +77,7 @@
     background-color: #34c2a4;  
     background-color: #c8d379;  
     background-color: #ff595e;
+    background-color: #73bfb8;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     margin-top: 12px;
@@ -132,7 +133,7 @@ a:active {
 
     .button {
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
 }

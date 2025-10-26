@@ -11,6 +11,7 @@
 
 .url-box {
     background-color: #77ddfa;
+    background-color: #7fc8f8;
     display: flex;
     justify-content: center;
     margin: 16px 16px 6px 16px;
@@ -45,7 +46,7 @@
     }
 
     .text-copyright {
-        font-size: 20px;
+        font-size: 14px;
     }
 
 }

@@ -16,7 +16,9 @@
     background-color: #e5e593;
     background-color: #c8d379;
     background-color: #87c5ea;   
-    background-color: #89a377;  
+    background-color: #89a377; 
+    background-color: #ffe45e; 
+    background-color: #fec601;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,8 +32,8 @@
     font-family: "Roboto", sans-serif;
     color: #003049;
     color: #818251;
-    color: #315a72;
     color: #ffffff;
+    color: #315a72;
     font-size: 20px;
     font-weight: 500;
 }
@@ -53,6 +55,10 @@ a:active {
     .button-box {
         padding: 6px 16px 6px 16px;
         border-radius: 6px;
+    }
+
+    .button-style {
+        font-size: 16px;
     }
 
 }
