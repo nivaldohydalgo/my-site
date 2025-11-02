@@ -1,8 +1,8 @@
 
+/*
 .container {
     display: flex;
     flex-direction: row;
-    width: var(--width-card);
     margin-top: calc( 0.1 * var(--width-card));
     border-top: 2px solid #cae7b9;
     border-right: 2px solid #cae7b9;
@@ -12,7 +12,7 @@
 
 .image {
     border-radius: calc( 0.01 * var(--width-card));
-    width: calc( 0.25 * var(--width-card));
+    width: 50px;
     height: auto;
 }
 
@@ -90,7 +90,7 @@ a:active {
 
     .image {
         border-radius:  calc( 0.02 * var(--width-card));
-        width: calc( 0.985 * var(--width-card));
+        width: 40px;
         height: auto;
     }
 
@@ -115,3 +115,4 @@ a:active {
     }
 
 }
+    */

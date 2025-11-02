@@ -1,10 +1,8 @@
 
 .container {
-    border-top: 1px solid #cae7b9;
+    border-top: 2px solid #cae7b9;
     display: flex;
     flex-direction: column;
-    padding-top:  calc( 0.02 * var(--width));
-    padding-bottom:  calc( 0.1 * var(--width));
 }
 
 .url-box {
@@ -14,7 +12,7 @@
 
 .url-style {
     color: #0f4e77;
-    font-size: calc( 0.02 * var(--width));
+    font-size: 18px;
 }
 
 .box-bottom {
@@ -24,18 +22,17 @@
 }
 
 .text-copyright {
-    font-size: calc( 0.015 * var(--width));
+    font-size: 14px;
 }
 
 @media (max-width: 768px) {
 
     .url-style {
-        font-size: calc( 0.04 * var(--width));
+        font-size: 20px;
     }
 
     .text-copyright {
-        font-size: calc( 0.025 * var(--width));
+        font-size: 16px;
     }
 
 }
-

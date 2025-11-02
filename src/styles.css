@@ -1,37 +1,9 @@
 
-:root {
-    --app-back-color: #ffffff;
-    --width: if(
-        media(width > 1500px): 60vw;
-        media(width > 1400px): 64vw;
-        media(width > 1300px): 68vw;
-        media(width > 1200px): 72vw;
-        media(width > 1100px): 76vw;
-        media(width > 1000px): 80vw;
-        media(width > 9000px): 84vw;
-        media(width > 800px): 88vw;
-        media(width > 700px): 92vw;
-        else: 96vw; 
-    );
-    --width-card: if(
-        media(width > 1500px): calc(var(--width) * 0.45);
-        media(width > 1400px): calc(var(--width) * 0.50);
-        media(width > 1300px): calc(var(--width) * 0.55);
-        media(width > 1200px): calc(var(--width) * 0.60);
-        media(width > 1100px): calc(var(--width) * 0.65);
-        media(width > 1000px): calc(var(--width) * 0.70);
-        media(width > 9000px): calc(var(--width) * 0.75);
-        media(width > 800px): calc(var(--width) * 0.80);
-        media(width > 700px): calc(var(--width) * 0.85);
-        else: calc(var(--width) * 0.90); 
-    );
-}
-
 html, body {
-    background-color: var(--app-back-color);
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 100vw;
     margin: 0;
     padding: 0;
