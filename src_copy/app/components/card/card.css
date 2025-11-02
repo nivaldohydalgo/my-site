@@ -1,0 +1,139 @@
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #d9d9d9;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #d9d9d9;
+    border-top-right-radius: 14px;
+    padding-top: 7px;
+    padding-right: 7px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-left {
+    display: flex;
+    flex: 1;
+    margin-top: 6px;
+}
+
+.box-right {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-left: 8px;
+}
+
+.image {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.box-right-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box-right-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title {
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ca1f3d;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #d3dff2;
+    background-color: #D0DFF0;
+    background-color: #C1D5EB;
+    background-color: #B2CBE6;
+    background-color: #ACC196;
+    background-color: #E9EB9E;
+    background-color: #34c2a4;  
+    background-color: #c8d379;  
+    background-color: #ff595e;
+    background-color: #73bfb8;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 12px;
+    padding: 6px 22px 6px 22px;
+    color: #003049;
+    color: #818251;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .box-left {
+        margin-top: 0;
+    }
+
+    .box-right {
+        margin-left: 0;
+    }
+
+    .section {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .title {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .button {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+}

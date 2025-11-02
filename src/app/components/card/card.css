@@ -1,40 +1,31 @@
 
 .container {
-    margin-top: 60px;
-    margin-bottom: 80px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #d9d9d9;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-right-color: #d9d9d9;
-    border-top-right-radius: 14px;
-    padding-top: 7px;
-    padding-right: 7px;
-}
-
-.content {
     display: flex;
     flex-direction: row;
+    width: var(--width-card);
+    margin-top: calc( 0.1 * var(--width-card));
+    border-top: 2px solid #cae7b9;
+    border-right: 2px solid #cae7b9;
+    padding-top: calc( 0.006 * var(--width-card));
+    border-top-right-radius: calc( 0.01 * var(--width-card));
+}
+
+.image {
+    border-radius: calc( 0.01 * var(--width-card));
+    width: calc( 0.25 * var(--width-card));
+    height: auto;
 }
 
 .box-left {
     display: flex;
-    flex: 1;
-    margin-top: 6px;
 }
 
 .box-right {
     display: flex;
+    flex: 1;
+    padding-left: calc( 0.01 * var(--width-card));
+    padding-right: calc( 0.01 * var(--width-card));
     flex-direction: column;
-    flex: 3;
-    margin-left: 8px;
-}
-
-.image {
-    border-radius: 8px;
-    width: 100%;
-    height: auto;
 }
 
 .box-right-top {
@@ -50,43 +41,34 @@
 
 .section {
     font-family: "Oswald", sans-serif;
-    font-size: 24px;
+    font-size: calc( 0.03 * var(--width-card));
     font-weight: 600;
 }
 
 .title {
     font-family: "Merriweather", serif;
-    font-size: 32px;
+    font-size: calc( 0.04 * var(--width-card));
     font-weight: bold;
     color: #ca1f3d;
-    margin-bottom: 8px;
 }
 
 .description {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: calc( 0.032 * var(--width-card));
+    margin-top: calc( 0.012 * var(--width-card));
+    margin-bottom: calc( 0.010 * var(--width-card));
 }
 
 .button {
-    background-color: #d3dff2;
-    background-color: #D0DFF0;
-    background-color: #C1D5EB;
-    background-color: #B2CBE6;
-    background-color: #ACC196;
-    background-color: #E9EB9E;
-    background-color: #34c2a4;  
-    background-color: #c8d379;  
-    background-color: #ff595e;
     background-color: #73bfb8;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    margin-top: 12px;
-    padding: 6px 22px 6px 22px;
-    color: #003049;
-    color: #818251;
     color: #ffffff;
-    font-size: 20px;
-    border-radius: 8px;
+    font-size: calc( 0.032 * var(--width-card));
+    border-radius: calc( 0.008 * var(--width-card));
+    padding: calc( 0.008 * var(--width-card));
+    padding-left: calc( 0.03 * var(--width-card));
+    padding-right: calc( 0.03 * var(--width-card));
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
 
@@ -97,43 +79,39 @@ a:active {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
 
     .container {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .content {
         flex-direction: column;
+        margin-top: calc( 0.14 * var(--width-card));
+        padding-top: calc( 0.015 * var(--width-card));
+        border-top-right-radius: calc( 0.03 * var(--width-card));
     }
 
-    .box-left {
-        margin-top: 0;
-    }
-
-    .box-right {
-        margin-left: 0;
+    .image {
+        border-radius:  calc( 0.02 * var(--width-card));
+        width: calc( 0.985 * var(--width-card));
+        height: auto;
     }
 
     .section {
-        font-size: 18px;
-        font-weight: 500;
+        font-size: calc( 0.05 * var(--width-card));
     }
 
     .title {
-        font-size: 22px;
-        font-weight: 700;
-        margin-bottom: 4px;
+        font-size: calc( 0.06 * var(--width-card));
     }
 
     .description {
-        font-size: 17px;
+        font-size: calc( 0.045 * var(--width-card));
     }
 
     .button {
-        margin-top: 10px;
-        font-size: 14px;
+        font-size: calc( 0.046* var(--width-card));
+        border-radius: calc( 0.01 * var(--width-card));
+        padding: calc( 0.01 * var(--width-card));
+        padding-left: calc( 0.05 * var(--width-card));
+        padding-right: calc( 0.05 * var(--width-card));
     }
 
 }

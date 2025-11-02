@@ -1,52 +1,41 @@
 
 .container {
-    width: 100vw;
-}
-
-.content {
+    border-top: 1px solid #cae7b9;
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    padding-top:  calc( 0.02 * var(--width));
+    padding-bottom:  calc( 0.1 * var(--width));
 }
 
 .url-box {
-    background-color: #77ddfa;
-    background-color: #7fc8f8;
     display: flex;
     justify-content: center;
-    margin: 16px 16px 6px 16px;
-    padding: 10px 16px 10px 16px;
-    border-radius: 8px;
-    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .url-style {
-    color: #000000;
-    font-size: 20px;
+    color: #0f4e77;
+    font-size: calc( 0.02 * var(--width));
 }
 
 .box-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 160px;
 }
 
 .text-copyright {
-    font-size: 18px;
+    font-size: calc( 0.015 * var(--width));
 }
 
 @media (max-width: 768px) {
 
-    .url-box {
-        margin: 16px 10px 6px 10px;
-    }
     .url-style {
-        font-size: 20px;
+        font-size: calc( 0.04 * var(--width));
     }
 
     .text-copyright {
-        font-size: 14px;
+        font-size: calc( 0.025 * var(--width));
     }
 
 }
+

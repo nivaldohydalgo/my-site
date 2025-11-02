@@ -1,0 +1,30 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: var(--width);
+}
+
+/*
+@media (max-width: 768px) {
+
+    .container {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        width: 96vw;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+        .container {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        width: 60vw;
+    }
+
+}
+*/

@@ -34,16 +34,10 @@ export class Card {
     }
 
     private calcWidth(w: number) {
-        if ( w > 1500 ) { return w * 0.45; }
-        else if ( w > 1400 ) { return w * 0.50; }
-        else if ( w > 1300 ) { return w * 0.55; }
-        else if ( w > 1200 ) { return w * 0.60; }
-        else if ( w > 1100 ) { return w * 0.65; }
-        else if ( w > 1000 ) { return w * 0.70; }
-        else if ( w >  900 ) { return w * 0.75; }
-        else if ( w >  800 ) { return w * 0.80; }
-        else if ( w >  700 ) { return w * 0.85; }
-        return w * 0.90;
+        if ( w <= 768 ) {
+            return w * 0.91;
+        } 
+        return 700 + ( ( w - 768) / 4 );
     }
 
 }
