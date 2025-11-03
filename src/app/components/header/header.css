@@ -1,9 +1,12 @@
 
 .container {
-    background-color: #ffffff;
+    background-color: #cae7b9;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    border-radius: 12px;
 }
 
 .box-name {
@@ -16,7 +19,9 @@
     font-family: "Henny Penny", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: #ff6392
+    color: #6e7e2a;
+    text-shadow: 4px 4px 6px #576238;
+    
 }
 
 .box-description {
@@ -51,22 +56,27 @@
 }
 
 .box-my-job {
+    background-color: #ffffff;
     padding: 10px 30px 10px 30px;
     font-family: "Merriweather", serif;
     font-size: clamp(18px, 1.8vw, 36px); ;
     font-weight: bold;
-    color: #5aa9e6;
+    color: #eb9486;
     letter-spacing: 2px;
     border-style: solid;
+    border-width: 2px;
     border-radius: 8px;
-    border-color: #7fc8f8;
+    border-color: #79b4ae;
+    box-shadow: 3px 2px 6px #888888;
 }
 
 .box-my-skills {
     display: flex;
     flex-direction: row;
-    color: #79b4ae;
-    font-size: clamp(16px, 1.6vw, 32px); ;
+    color: #576238;
+    font-size: clamp(16px, 1.6vw, 32px); 
+    text-shadow: 3px 3px 4px #999999;
+
 }
 
 .skill-separator {
@@ -89,24 +99,14 @@
     }
 
     .box-my-job {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding: 10px 20px 10px 20px;
         font-family: "Merriweather", serif;
         font-size: clamp(10px, 5vw, 30px); ;
-        font-weight: bold;
-        color: #5aa9e6;
         letter-spacing: 2px;
-        border-style: solid;
         border-radius: 8px;
-        border-color: #7fc8f8;
     }
 
     .box-my-skills {
-        display: flex;
-        flex-direction: row;
-        color: #79b4ae;
         font-size: clamp(9px, 4.5vw, 27px); ;
         padding: 18px 6px 20px 6px;
     }

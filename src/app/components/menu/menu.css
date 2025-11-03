@@ -6,8 +6,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
     border-top: 2px solid #cae7b9;
     border-bottom: 2px solid #cae7b9;
 }

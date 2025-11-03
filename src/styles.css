@@ -1,5 +1,6 @@
 
 html, body {
+    background-color: #fffffb;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
