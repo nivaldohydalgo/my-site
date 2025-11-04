@@ -1,6 +1,9 @@
 
 .container {
+    background-color: #ffffff;
     background-color: #cae7b9;
+    background-color: #fdf5de;
+    background-color: #e3ecb2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +23,7 @@
     font-weight: 400;
     font-style: normal;
     color: #6e7e2a;
-    text-shadow: 4px 4px 6px #576238;
+    text-shadow: 4px 4px 6px #80998f;
     
 }
 
@@ -56,18 +59,23 @@
 }
 
 .box-my-job {
-    background-color: #ffffff;
+    background-color: #b9dbab;
     padding: 10px 30px 10px 30px;
     font-family: "Merriweather", serif;
     font-size: clamp(18px, 1.8vw, 36px); ;
     font-weight: bold;
-    color: #eb9486;
+    color: #ffffff;
+    color: #3e6985;  
+    color: #8aa7bc;  
+    color: #49769f;
     letter-spacing: 2px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px #80998f;
+/*
     border-style: solid;
     border-width: 2px;
-    border-radius: 8px;
     border-color: #79b4ae;
-    box-shadow: 3px 2px 6px #888888;
+*/
 }
 
 .box-my-skills {
@@ -75,8 +83,9 @@
     flex-direction: row;
     color: #576238;
     font-size: clamp(16px, 1.6vw, 32px); 
+/*
     text-shadow: 3px 3px 4px #999999;
-
+*/
 }
 
 .skill-separator {
