@@ -1,9 +1,5 @@
 
 .container {
-    background-color: #ffffff;
-    background-color: #cae7b9;
-    background-color: #fdf5de;
-    background-color: #e3ecb2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,7 +19,19 @@
     font-weight: 400;
     font-style: normal;
     color: #6e7e2a;
+    color: #f55c7a;
+    color: #79addc;
+    color: #ff7477;
+    color: #a0ced9;
+    color: #809bce;
+    color: #003049;
+    color: #6c757d;
+    color: #ef233c;
+    color: rgba(255, 100, 100, 0.5); 
+    color: #809bce;
+    color: #ff686b;
     text-shadow: 4px 4px 6px #80998f;
+    text-shadow: 4px 4px 6px #ffa69e;
     
 }
 
@@ -70,6 +78,7 @@
     color: #49769f;
     letter-spacing: 2px;
     border-radius: 8px;
+    box-shadow: 3px 3px 6px #adf7b6;
     box-shadow: 3px 3px 6px #80998f;
 /*
     border-style: solid;
