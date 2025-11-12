@@ -1,38 +1,33 @@
 
 .container {
+    background-color: #edf2fb;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 12px;
-    margin-bottom: 4px;
-    border-radius: 12px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #d7e3fc;
 }
 
 .box-name {
+    background-color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d7e3fc;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 16px;
-    padding-right: 16px;
     font-family: "Henny Penny", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: #6e7e2a;
-    color: #f55c7a;
-    color: #79addc;
-    color: #ff7477;
-    color: #a0ced9;
-    color: #809bce;
-    color: #003049;
-    color: #6c757d;
-    color: #ef233c;
-    color: rgba(255, 100, 100, 0.5); 
-    color: #809bce;
-    color: #ff686b;
-    text-shadow: 4px 4px 6px #80998f;
-    text-shadow: 4px 4px 6px #ffa69e;
-    
+    color: #5b5f97;
+    text-shadow: 8px 8px 20px #666666;
 }
 
 .box-description {
@@ -40,9 +35,24 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 16px;
-    padding-right: 16px;
 }
+
+@media (max-width: 640px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+/* ============================================ */
+
+
+
+
 
 .nome-pri {
     display: flex;
@@ -67,20 +77,22 @@
 }
 
 .box-my-job {
-    background-color: #b9dbab;
+    background-color: #ffffff;
     padding: 10px 30px 10px 30px;
     font-family: "Merriweather", serif;
     font-size: clamp(18px, 1.8vw, 36px); ;
     font-weight: bold;
-    color: #ffffff;
-    color: #3e6985;  
-    color: #8aa7bc;  
-    color: #49769f;
+    color: #ff6b6c;
     letter-spacing: 2px;
+
+
     border-radius: 8px;
-    box-shadow: 3px 3px 6px #adf7b6;
-    box-shadow: 3px 3px 6px #80998f;
-/*
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d7e3fc;
+
+    /*
+    box-shadow: 2px 2px 6px #aaaaaa;
     border-style: solid;
     border-width: 2px;
     border-color: #79b4ae;

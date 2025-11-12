@@ -1,12 +1,13 @@
 
 .container {
-    background-color: #68b6ef;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    border-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #d7e3fc;    
 }
 
 .button-box {
@@ -18,7 +19,7 @@
 
 .button-style {
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    color: #0f4e77;
     font-size: 18px;
     font-weight: 500;
 }
