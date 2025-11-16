@@ -1,148 +1,115 @@
 
 .container {
     background-color: #edf2fb;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #d7e3fc;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 24px;
 }
+
+/*---------------------------------
+               NAME
+---------------------------------*/
 
 .box-name {
     background-color: #ffffff;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 40px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #d7e3fc;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     font-family: "Henny Penny", system-ui;
     font-weight: 400;
     font-style: normal;
     color: #5b5f97;
+    padding-left: 30px;
+    padding-right: 26px;
+    padding-top: 18px;
+    padding-bottom: 5px;
+    border-radius: 26px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d7e3fc;
     text-shadow: 8px 8px 20px #666666;
+    line-height: 1;
 }
+
+.name-pri {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.name-ult {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.name-letra-gr {
+    font-size: clamp(50px, 5vw, 80px); ;
+}
+
+.name-letra-pq {
+    font-size: clamp(25px, 2.5vw, 40px); ;
+}
+
+/*---------------------------------
+            DESCRIPTION
+---------------------------------*/
 
 .box-description {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-}
-
-@media (max-width: 640px) {
-
-    .container {
-        flex-direction: column;
-    }
-
-}
-
-
-
-
-/* ============================================ */
-
-
-
-
-
-.nome-pri {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-}
-
-.nome-ult {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-}
-
-.nome-letra-gr {
-    font-size: clamp(50px, 5vw, 80px); ;
-}
-
-.nome-letra-pq {
-    font-size: clamp(25px, 2.5vw, 40px); ;
+    gap: 20px;
 }
 
 .box-my-job {
-    background-color: #ffffff;
-    padding: 10px 30px 10px 30px;
+    background-color: #d7e3fc;
+    padding: 8px 30px 8px 30px;
     font-family: "Merriweather", serif;
     font-size: clamp(18px, 1.8vw, 36px); ;
     font-weight: bold;
-    color: #ff6b6c;
+    color: #8daff6;
     letter-spacing: 2px;
-
-
     border-radius: 8px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #d7e3fc;
-
-    /*
     box-shadow: 2px 2px 6px #aaaaaa;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #79b4ae;
-*/
 }
 
 .box-my-skills {
     display: flex;
     flex-direction: row;
-    color: #576238;
+    color: #669bbc;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
     font-size: clamp(16px, 1.6vw, 32px); 
-/*
-    text-shadow: 3px 3px 4px #999999;
-*/
 }
 
 .skill-separator {
     width: 14px;
 }
 
-@media (max-width: 700px) {
+/*---------------------------------
+              @MEDIA
+---------------------------------*/
+
+@media (max-width: 768px) {
 
     .container {
         flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
     }
 
-    .nome-letra-gr {
-        font-size: clamp(40px, 20vw, 100px); ;
+    .name-letra-gr {
+        font-size: clamp(60px, 6vw, 100px); ;
     }
 
-    .nome-letra-pq {
-        font-size: clamp(26px, 8vw, 50px); ;
-    }
-
-    .box-my-job {
-        padding: 10px 20px 10px 20px;
-        font-family: "Merriweather", serif;
-        font-size: clamp(10px, 5vw, 30px); ;
-        letter-spacing: 2px;
-        border-radius: 8px;
-    }
-
-    .box-my-skills {
-        font-size: clamp(9px, 4.5vw, 27px); ;
-        padding: 18px 6px 20px 6px;
-    }
-
-    .skill-separator {
-        width: 14px;
+    .name-letra-pq {
+        font-size: clamp(30px, 3vw, 50px); ;
     }
 
 }

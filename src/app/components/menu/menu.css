@@ -1,10 +1,15 @@
 
 .container {
+    background-color: #ffffff;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #d7e3fc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #d7e3fc;    
@@ -14,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 12px 6px 12px 6px;
 }
 
 .button-style {
@@ -33,14 +38,8 @@ a:active {
 
 @media (max-width: 640px) AND (orientation: portrait) {
 
-    .container {
-        background-color: #ffffff;
-        border-radius: 10px;
-    }
-
     .button-style {
         font-size: 14px;
-        color: #5b5f97;
     }
 
 }

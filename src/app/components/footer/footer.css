@@ -1,10 +1,13 @@
 
 .container {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     border-top-style: solid;
     border-top-width: 2px;
-    border-top-color: #d7e3fc;      
+    border-top-color: #d7e3fc;  
+    padding-top: 12px;
+    padding-bottom: 50px;    
 }
 
 .url-box {
