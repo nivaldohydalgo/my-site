@@ -7,6 +7,7 @@ import { PageNotFound } from './contents/page-not-found/page-not-found';
 
 import { English } from './contents/learn/english/english'
 import { Spanish } from './contents/learn/spanish/spanish'
+import { TerminalCommands } from './contents/learn/terminal-commands/terminal-commands'
 
 export const routes: Routes = [
     { path: 'home', component: Home },
@@ -15,6 +16,7 @@ export const routes: Routes = [
 
     { path: 'learn-english', component: English },
     { path: 'learn-spanish', component: Spanish },
+    { path: 'learn-terminal-commands', component: TerminalCommands },
 
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: PageNotFound },

@@ -68,12 +68,12 @@
 }
 
 .box-my-job {
-    background-color: #d7e3fc;
+    background-color: #8ecae6;
     padding: 8px 30px 8px 30px;
     font-family: "Merriweather", serif;
     font-size: clamp(18px, 1.8vw, 36px); ;
     font-weight: bold;
-    color: #8daff6;
+    color: #ffffff;
     letter-spacing: 2px;
     border-radius: 8px;
     box-shadow: 2px 2px 6px #aaaaaa;
@@ -102,14 +102,6 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-    }
-
-    .name-letra-gr {
-        font-size: clamp(60px, 6vw, 100px); ;
-    }
-
-    .name-letra-pq {
-        font-size: clamp(30px, 3vw, 50px); ;
     }
 
 }

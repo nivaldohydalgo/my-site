@@ -1,4 +1,4 @@
-import { Component , HostListener, Input } from '@angular/core';
+import { Component , Input } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -17,33 +17,5 @@ export class Card {
     @Input({ required: true }) description!: String;
     @Input({ required: true }) button!: String;
     @Input({ required: true }) router!: String;
-
-    screenWidth: number = window.innerWidth;
-    screenHeight: number = window.innerHeight;
-    cardWidth: number = this.calcWidth(this.screenWidth);
-    imageWidth: number = this.cardWidth / 4;
-    imageHeight: number = this.imageWidth * 0.75;
-
-    @HostListener('window:resize', ['$event'])
-    onResize(event: any) {
-        this.screenWidth = window.innerWidth;
-        this.screenHeight = window.innerHeight;
-        this.cardWidth = this.calcWidth(this.screenWidth);
-        this.imageWidth = this.cardWidth / 4;
-        this.imageHeight = this.imageWidth * 0.75;
-    }
-
-    private calcWidth(w: number) {
-        if ( w > 1500 ) { return w * 0.45; }
-        else if ( w > 1400 ) { return w * 0.50; }
-        else if ( w > 1300 ) { return w * 0.55; }
-        else if ( w > 1200 ) { return w * 0.60; }
-        else if ( w > 1100 ) { return w * 0.65; }
-        else if ( w > 1000 ) { return w * 0.70; }
-        else if ( w >  900 ) { return w * 0.75; }
-        else if ( w >  800 ) { return w * 0.80; }
-        else if ( w >  700 ) { return w * 0.85; }
-        return w * 0.90;
-    }
 
 }
