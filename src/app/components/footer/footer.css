@@ -8,11 +8,11 @@
     margin-top: 2rem;
     padding: 2rem 0;
     text-align: center;
-    background: #edf2fb;
-    color: #0f4e77;
+    background: var(--color-bg-header-footer);
+    color: #ffffff;
     border-top-style: solid;
     border-top-width: 2px;
-    border-top-color: #d7e3fc;
+    border-top-color: var(--color-line-separator);
 }
 
 /*

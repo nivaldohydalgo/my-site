@@ -3,19 +3,55 @@
 /* ------------------------ */
 
 .header {
-    background: #edf2fb;
-    color: #5b5f97;
+    background: var(--color-bg-header-footer);
+    color: var(--color-font-reverse);
     padding: 1rem 0;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: #d7e3fc;    
+    border-bottom-color: var(--color-line-separator);    
 }
 
-.logo {
+.box-logo {
+    display: flex;
+    flex-direction: column;
     margin: 20px 0 20px 0;
+}
+
+.box-name {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-name {
+    margin: 0;
     font-family: "Henny Penny", system-ui;
     font-size: clamp(1.5rem, 3vw, 2.4rem);
     text-shadow: 8px 8px 20px #666666;
+}
+
+.box-job {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-job {
+    margin: 0;
+    margin-top: 14px;    
+    background-color: #003049;
+    padding: 3px 26px 3px 26px;
+    border-radius: 12px;
+}
+
+.box-skills {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-skill {
+    margin: 0;
 }
 
 .header-content {
@@ -37,7 +73,7 @@
 }
 
 .menu a {
-    color: #5b5f97;
+    color: var(--color-font-reverse);
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -67,14 +103,14 @@
         top: 48px;
         right: 0;
         flex-direction: column;
-        background: #d7e3fc;
+        background: var(--color-bg-menu-header);
         width: 200px;
         padding: 1rem;
         border-radius: 12px;
     }
     
     .menu a {
-        color: #ffffff;
+        color: var(--color-font-reverse);
     }
 
     #menu-toggle:checked ~ .menu {
@@ -83,7 +119,7 @@
 
     .menu-icon {
         display: block;
-        color: #5b5f97;
+        color: var(--color-font-reverse);
     }
 
 }

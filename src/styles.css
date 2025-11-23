@@ -2,14 +2,26 @@
 /* 1. CONFIGURAÇÕES GLOBAIS */
 /* ------------------------ */
 
-html { box-sizing: border-box; font-size: 16px; }
+:root {
+    --color-bg: #fcfcfc;
+    --color-bg-header-footer: #f55c7a;
+    --color-bg-menu-header: #ef233c;
+    --color-line-separator: #c1121f;
+    --color-font-reverse: #ffffff;
+}
+
+html { 
+    box-sizing: border-box; 
+    font-size: 18px; 
+}
+
 *, *:before, *:after { box-sizing: inherit; }
 
 body {
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
     line-height: 1.6;
-    background: #fcfcfc;
+    background: var(--color-bg);
 }
 
 /* CONTAINER PRINCIPAL: controla a largura do site */
