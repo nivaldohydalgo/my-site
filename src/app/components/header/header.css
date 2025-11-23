@@ -12,7 +12,12 @@
 }
 
 .box-logo {
-    margin: 14px 0 14px 0;
+    margin: 14px 0px 14px 0;
+}
+
+.image-logo {
+    width: 80%;
+    height: auto;
 }
 
 .logo-name {
