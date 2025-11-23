@@ -12,46 +12,13 @@
 }
 
 .box-logo {
-    display: flex;
-    flex-direction: column;
     margin: 20px 0 20px 0;
 }
 
-.box-name {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .logo-name {
-    margin: 0;
     font-family: "Henny Penny", system-ui;
     font-size: clamp(1.5rem, 3vw, 2.4rem);
     text-shadow: 8px 8px 20px #666666;
-}
-
-.box-job {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-job {
-    margin: 0;
-    margin-top: 14px;    
-    background-color: #003049;
-    padding: 3px 26px 3px 26px;
-    border-radius: 12px;
-}
-
-.box-skills {
-    margin-top: 14px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-}
-
-.logo-skill {
-    margin: 0;
 }
 
 .header-content {
@@ -123,112 +90,3 @@
     }
 
 }
-
-/*
-.container {
-    background-color: #edf2fb;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    gap: 24px;
-}
-
-/*---------------------------------
-               NAME
----------------------------------*/
-/*
-.box-name {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    font-family: "Henny Penny", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    color: #5b5f97;
-    padding-left: 30px;
-    padding-right: 26px;
-    padding-top: 18px;
-    padding-bottom: 5px;
-    border-radius: 26px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #d7e3fc;
-    text-shadow: 8px 8px 20px #666666;
-    line-height: 1;
-}
-
-.name-pri {
-    display: flex;
-    flex-direction: row;
-    align-items: center;    
-}
-
-.name-ult {
-    display: flex;
-    flex-direction: row;
-    align-items: center;    
-}
-
-.name-letra-gr {
-    font-size: clamp(50px, 5vw, 80px); ;
-}
-
-.name-letra-pq {
-    font-size: clamp(25px, 2.5vw, 40px); ;
-}
-
-/*---------------------------------
-            DESCRIPTION
----------------------------------*/
-/*
-.box-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
-}
-
-.box-my-job {
-    background-color: #8ecae6;
-    padding: 8px 30px 8px 30px;
-    font-family: "Merriweather", serif;
-    font-size: clamp(18px, 1.8vw, 36px); ;
-    font-weight: bold;
-    color: #ffffff;
-    letter-spacing: 2px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 6px #aaaaaa;
-}
-
-.box-my-skills {
-    display: flex;
-    flex-direction: row;
-    color: #669bbc;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-size: clamp(16px, 1.6vw, 32px); 
-}
-
-.skill-separator {
-    width: 14px;
-}
-
-/*---------------------------------
-              @MEDIA
----------------------------------*/
-/*
-@media (max-width: 768px) {
-
-    .container {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-}
-*/
