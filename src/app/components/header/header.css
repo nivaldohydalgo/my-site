@@ -12,13 +12,13 @@
 }
 
 .box-logo {
-    margin: 20px 0 20px 0;
+    margin: 14px 0 14px 0;
 }
 
 .logo-name {
     font-family: "Henny Penny", system-ui;
     font-size: clamp(1.5rem, 3vw, 2.4rem);
-    text-shadow: 8px 8px 20px #666666;
+    text-shadow: 8px 8px 20px #000000;
 }
 
 .header-content {
