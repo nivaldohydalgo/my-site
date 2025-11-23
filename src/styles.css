@@ -4,10 +4,10 @@
 
 :root {
     --color-bg: #fcfcfc;
-    --color-bg-header-footer: #ea3546;
+    --color-bg-header-footer: #fcf5c7;
     --color-bg-menu-header: #fb8500;
-    --color-line-separator: #de172b;
-    --color-font-reverse: #ffffff;
+    --color-line-separator: #ffee93;
+    --color-font-reverse: #4a4e69;
 }
 
 html { 
