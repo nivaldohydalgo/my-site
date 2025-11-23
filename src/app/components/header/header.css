@@ -1,4 +1,94 @@
+/* ------------------------ */
+/* 2. HEADER + MENU */
+/* ------------------------ */
 
+.header {
+    background: #edf2fb;
+    color: #5b5f97;
+    padding: 1rem 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #d7e3fc;    
+}
+
+.logo {
+    margin: 20px 0 20px 0;
+    font-family: "Henny Penny", system-ui;
+    font-size: clamp(1.5rem, 3vw, 2.4rem);
+    text-shadow: 8px 8px 20px #666666;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    position: relative;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu a {
+    color: #5b5f97;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* --- MENU MOBILE --- */
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* ------------------------ */
+/* 7. RESPONSIVIDADE */
+/* ------------------------ */
+
+/* Mobile (menu hambúrguer) */
+@media (max-width: 768px) {
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 48px;
+        right: 0;
+        flex-direction: column;
+        background: #d7e3fc;
+        width: 200px;
+        padding: 1rem;
+        border-radius: 12px;
+    }
+    
+    .menu a {
+        color: #ffffff;
+    }
+
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+        color: #5b5f97;
+    }
+
+}
+
+/*
 .container {
     background-color: #edf2fb;
     width: 100vw;
@@ -14,7 +104,7 @@
 /*---------------------------------
                NAME
 ---------------------------------*/
-
+/*
 .box-name {
     background-color: #ffffff;
     display: flex;
@@ -58,7 +148,7 @@
 /*---------------------------------
             DESCRIPTION
 ---------------------------------*/
-
+/*
 .box-description {
     display: flex;
     flex-direction: column;
@@ -95,7 +185,7 @@
 /*---------------------------------
               @MEDIA
 ---------------------------------*/
-
+/*
 @media (max-width: 768px) {
 
     .container {
@@ -105,3 +195,4 @@
     }
 
 }
+*/

@@ -1,5 +1,78 @@
+/* ------------------------ */
+/* 3. BANNER */
+/* ------------------------ */
 
+.banner {
+    background: url("https://via.placeholder.com/1600x500") center/cover no-repeat;
+    color: white;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+}
+.banner p {
+    font-size: clamp(1rem, 2vw, 1.4rem);
+}
+
+
+/* ------------------------ */
+/* 4. LAYOUT PRINCIPAL */
+/* ------------------------ */
+
+.layout {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.content {
+    flex: 3;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+/* ------------------------ */
+/* 5. GRID RESPONSIVO */
+/* ------------------------ */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    background: #eee;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mobile (menu hambúrguer) */
+@media (max-width: 768px) {
+
+   .layout {
+        flex-direction: column;
+    }
+}
+
+
+/*
 .container {
     margin-top: 160px;
     margin-bottom: 160px;
 }
+    */

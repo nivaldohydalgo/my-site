@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 import { Header } from '../app/components/header/header';
 import { Footer } from '../app/components/footer/footer';
-import { Menu } from '../app/components/menu/menu';
+// import { Menu } from '../app/components/menu/menu';
 
 @Component({
     selector: 'app-root',
@@ -11,7 +11,7 @@ import { Menu } from '../app/components/menu/menu';
         RouterOutlet,
         Header,
         Footer,
-        Menu,        
+//        Menu,        
     ],
     templateUrl: './app.html',
     styleUrl: './app.css'
