@@ -4,8 +4,9 @@
 
 :root {
     --col-bg-all: #fcfcfc;
+    --col-bg-all: #dcefd1;
     --col-bg-head-foot: #cae7b9;
-    --col-bg-menu-head: #fb8500;
+    --col-bg-menu-head: #79b4ae;
     --col-lin-sep: #b7cf4f;
     --col-font-pri: #315a72;
 }
