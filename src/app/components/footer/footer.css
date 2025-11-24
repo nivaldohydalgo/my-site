@@ -4,58 +4,13 @@
 /* 6. FOOTER */
 /* ------------------------ */
 
-.footer {
+.footer-container {
     margin-top: 2rem;
     padding: 2rem 0;
     text-align: center;
-    background: var(--color-bg-header-footer);
-    color: #4a4e69;
+    background: var(--col-bg-head-foot);
+    color: var(--col-font-pri);
     border-top-style: solid;
     border-top-width: 2px;
-    border-top-color: var(--color-line-separator);
+    border-top-color: var(--col-lin-sep);
 }
-
-/*
-.container {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #d7e3fc;  
-    padding-top: 12px;
-    padding-bottom: 50px;    
-}
-
-.url-box {
-    display: flex;
-    justify-content: center;
-}
-
-.url-style {
-    color: #0f4e77;
-    font-size: 18px;
-}
-
-.box-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-copyright {
-    font-size: 14px;
-}
-
-@media (max-width: 768px) {
-
-    .url-style {
-        font-size: 20px;
-    }
-
-    .text-copyright {
-        font-size: 16px;
-    }
-
-}
-*/

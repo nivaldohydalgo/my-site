@@ -3,11 +3,11 @@
 /* ------------------------ */
 
 :root {
-    --color-bg: #fcfcfc;
-    --color-bg-header-footer: #fcf5c7;
-    --color-bg-menu-header: #fb8500;
-    --color-line-separator: #ffee93;
-    --color-font-reverse: #4a4e69;
+    --col-bg-all: #fcfcfc;
+    --col-bg-head-foot: #cae7b9;
+    --col-bg-menu-head: #fb8500;
+    --col-lin-sep: #b7cf4f;
+    --col-font-pri: #315a72;
 }
 
 html { 
@@ -20,13 +20,13 @@ html {
 body {
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
-    line-height: 1.6;
-    background: var(--color-bg);
+    line-height: 1.4;
+    background: var(--col-bg-all);
 }
 
 /* CONTAINER PRINCIPAL: controla a largura do site */
 
-.container {
+.container-general {
     width: 100%;
     max-width: min(1200px, 90vw);
     margin: 0 auto;

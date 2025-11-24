@@ -2,28 +2,13 @@
 /* 2. HEADER + MENU */
 /* ------------------------ */
 
-.header {
-    background: var(--color-bg-header-footer);
-    color: var(--color-font-reverse);
-    padding: 1rem 0;
+.header-container {
+    background: var(--col-bg-head-foot);
+    color: var(--col-font-pri);
+    padding: 0;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: var(--color-line-separator);    
-}
-
-.box-logo {
-    margin: 14px 0px 14px 0;
-}
-
-.image-logo {
-    width: 80%;
-    height: auto;
-}
-
-.logo-name {
-    font-family: "Henny Penny", system-ui;
-    font-size: clamp(1.5rem, 3vw, 2.4rem);
-    text-shadow: 8px 8px 20px #000000;
+    border-bottom-color: var(--col-lin-sep);    
 }
 
 .header-content {
@@ -32,20 +17,49 @@
     align-items: center;
 }
 
-.nav {
+.box-top {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 6px;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.box-logo {
+    background-color: transparent;
+}    
+
+.box-menu {
+    padding-bottom: 20px;
+}
+
+.image-socials {
+    width: 40px;
+    height: auto;
+}    
+
+.image-logo {
+    width: 80%;
+    height: auto;
+}        
+
+.nav-header {
     position: relative;
 }
 
-.menu {
+
+.menu-header {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 1rem;
+    font-weight: 600;
 }
 
-.menu a {
-    color: var(--color-font-reverse);
+.menu-header a {
+    color: var(--col-font-pri);
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -69,20 +83,20 @@
 /* Mobile (menu hambúrguer) */
 @media (max-width: 768px) {
 
-    .menu {
+    .menu-header {
         display: none;
         position: absolute;
         top: 48px;
         right: 0;
         flex-direction: column;
-        background: var(--color-bg-menu-header);
+        background: var(--col-bg-menu-head);
         width: 200px;
         padding: 1rem;
         border-radius: 12px;
     }
     
-    .menu a {
-        color: var(--color-font-reverse);
+    .menu-header a {
+        color: var(--col-font-pri);
     }
 
     #menu-toggle:checked ~ .menu {
@@ -91,7 +105,7 @@
 
     .menu-icon {
         display: block;
-        color: var(--color-font-reverse);
+        color: var(--col-font-pri);
     }
 
 }

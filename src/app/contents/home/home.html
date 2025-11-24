@@ -2,14 +2,14 @@
 
     <!-- BANNER -->
     <section class="banner">
-        <div class="container">
+        <div class="container-general">
             <h2>Software Developer</h2>
             <p>MAINFRAME. WEB. MOBILE. IA</p>
         </div>
     </section>
 
     <!-- CONTEÚDO PRINCIPAL -->
-    <main class="container layout">
+    <main class="container-general layout">
 
         <!-- CONTEÚDO -->
         <article class="content">
@@ -30,6 +30,25 @@
                 <div class="card">Caixa 1</div>
                 <div class="card">Caixa 2</div>
                 <div class="card">Caixa 3</div>
+
+                <app-card 
+                    image="learn_english.png"
+                    section="Learn" 
+                    title="Learn English"
+                    description="Estude ingles agora e aqui."
+                    button="Acesse Agora"
+                    router="learn-english"
+                />
+
+                <app-card 
+                    image="learn_spanish.png"
+                    section="Learn" 
+                    title="Learn Spanish"
+                    description="Estude espanhol agora e aqui."
+                    button="ACESSE AGORA"
+                    router="learn-spanish"
+                />
+
             </div>
 
         </article>
@@ -50,21 +69,3 @@
         </aside>
 
     </main>
-
-    <!--
-<div class="container">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    HOME PAGE
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</div>
--->

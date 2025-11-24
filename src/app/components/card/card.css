@@ -1,16 +1,35 @@
 
-.container {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding-top: 6px;
-    padding-right: 6px;
-    border-top: 2px solid #d7e3fc;
-    border-right: 2px solid #d7e3fc;
-    border-top-right-radius: 14px;
+.card-container {
+    background: #eee;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold; 
 }
 
+.card-content {
+    
+    
+}
+
+.card-top {
+    
+    
+}
+
+.card-bottom {
+    padding: 1rem;
+
+
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*
 .image {
     width: 100%;
     height: auto;
@@ -102,3 +121,4 @@ a:active {
     }
 
 }
+*/
