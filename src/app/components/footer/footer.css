@@ -8,9 +8,9 @@
     margin-top: 2rem;
     padding: 2rem 0;
     text-align: center;
-    background: var(--col-bg-head-foot);
-    color: var(--col-font-pri);
+    background: var(--color-bg-head-foot);
+    color: var(--color-font-pri);
     border-top-style: solid;
     border-top-width: 2px;
-    border-top-color: var(--col-lin-sep);
+    border-top-color: var(--color-lin-sep);
 }

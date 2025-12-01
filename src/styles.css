@@ -3,12 +3,12 @@
 /* ------------------------ */
 
 :root {
-    --col-bg-all: #fcfcfc;
-    --col-bg-all: #dcefd1;
-    --col-bg-head-foot: #cae7b9;
-    --col-bg-menu-head: #79b4ae;
-    --col-lin-sep: #b7cf4f;
-    --col-font-pri: #315a72;
+    --color-bg-all: #fcfcfc;
+    --color-bg-all: #dcefd1;
+    --color-bg-head-foot: #cae7b9;
+    --color-bg-menu-head: #79b4ae;
+    --color-lin-sep: #b7cf4f;
+    --color-font-pri: #315a72;
 }
 
 html { 
@@ -21,8 +21,8 @@ html {
 body {
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
-    line-height: 1.4;
-    background: var(--col-bg-all);
+    /* line-height: 1.4; */
+    background: var(--color-bg-all);
 }
 
 /* CONTAINER PRINCIPAL: controla a largura do site */
@@ -36,28 +36,28 @@ body {
 
 /* Tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .container {
+    .container-general {
         max-width: min(900px, 85vw);
     }
 }
 
 /* Desktop padrão */
 @media (min-width: 1024px) {
-    .container {
+    .container-general {
         max-width: min(1100px, 70vw);
     }
 }
 
 /* Telas grandes */
 @media (min-width: 1600px) {
-    .container {
+    .container-general {
         max-width: min(1400px, 55vw);
     }
 }
 
 /* Telas ultralargas */
 @media (min-width: 2000px) {
-    .container {
+    .container-general {
         max-width: 50vw;
     }
 }

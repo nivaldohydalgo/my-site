@@ -3,13 +3,13 @@
 /* ------------------------ */
 
 .header-container {
-    background: var(--col-bg-head-foot);
-    color: var(--col-font-pri);
+    background: var(--color-bg-head-foot);
+    color: var(--color-font-pri);
     padding: 0;
     padding-top: 20px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: var(--col-lin-sep);    
+    border-bottom-color: var(--color-lin-sep);    
 }
 
 .header-content {
@@ -46,7 +46,7 @@
 }
 
 .menu-header a {
-    color: var(--col-font-pri);
+    color: var(--color-font-pri);
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -76,14 +76,14 @@
         top: 48px;
         right: 0;
         flex-direction: column;
-        background: var(--col-bg-menu-head);
-        background: var(--col-bg-head-foot);
+        background: var(--color-bg-menu-head);
+        background: var(--color-bg-head-foot);
         width: 200px;
         padding: 1rem;
         border-radius: 12px;
         border-style: solid;
         border-width: 2px;
-        border-color: var(--col-lin-sep);
+        border-color: var(--color-lin-sep);
     }
     
     #menu-toggle:checked ~ .menu-header {
@@ -92,7 +92,7 @@
 
     .menu-icon {
         display: block;
-        color: var(--col-font-pri);
+        color: var(--color-font-pri);
     }
 
 }
